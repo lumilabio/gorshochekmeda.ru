@@ -1,0 +1,585 @@
+body {
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0px;
+
+}
+.regular-text {
+	font-family: 'Merriweather', serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0px;	
+}
+.delivery-row {
+	margin-top:5%;
+	margin-bottom:0%;
+}
+
+.delivery-header {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0px;
+	
+}
+
+.delivery-local {
+	font-family: 'Merriweather', serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.honey-menu {
+	background-color: rgba(62, 81, 35, 0.8);
+	padding: 1.5%;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0px;
+	font-weight: 100 !important;
+	z-index:7;
+	margin:0;
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    height: 100%;
+}
+path {
+  fill:#EEEBCE;;
+}
+.nav-link {
+	color: #EEEBCE; 
+
+}
+.nav-link:hover{
+	color: #CAB480;
+}
+
+#close-menu {
+	float: none !important;
+}
+
+.closebutton {
+	text-align: center;
+}
+
+.honey-content {
+	margin-left:2%;
+	z-index:1;
+}
+
+@media only screen and (max-width: 740px) {
+    .align {
+       text-align: center !important;
+    }
+    .honey-logo img {
+    	float:none !important;
+    	display:block !important;
+    	margin: auto !important;
+    }
+
+    .background-image {
+    	background-image: linear-gradient(to bottom, rgba(56, 74, 31, 0.4), rgba(56, 74, 31, 0.4)), url("../img/mainimg.jpg") !important;
+	}
+
+	.dadan img {
+		margin-top: 0px !important;
+	}
+	.delivery-type{
+		font-size: 20px;
+		margin: 10px;
+		width: auto !important;
+	}
+	.del {
+		max-height: 600px !important;
+	}
+	#map {
+		max-height: 550px !important;
+		height: 550px !important;
+	}
+	.delivery {
+		top:-500px !important;
+	}
+	#contacts {
+		margin-top: 150px;
+	}
+	.blogbackground-image{
+		background-image: url("../img/mainimg.jpg");
+		width: 100vw !important;
+		height: 50vh !important;
+
+	    background-size: auto !important;
+
+	}
+}
+
+.honey-phone {
+	width: 100px;
+	text-align:right;
+	color: #EEEBCE;
+	font-family: Times New Roman;
+	font-size: 24px;
+	margin-top: 15px;
+	
+}
+
+
+.honey-phone img {
+	width: 25px;
+}
+
+
+.honey-show-menu {
+	z-index: 8;
+	font-size: 40px;
+
+
+}
+a{
+	color: #7D6C25;
+}
+
+a:hover{
+	color: #CAB480;
+}
+
+.phone-number{
+	color: #EEEBCE;
+}
+
+.button{
+	text-align: center;
+
+
+
+}
+.callbutton {
+
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: rgba(62, 81, 35, 0.8);
+	color: #EEEBCE; 
+	border: 1px solid #EDEACC;
+	margin-top: 100px;
+
+
+
+}
+.callbutton:hover{
+	background-color: #7D6C25;
+
+}
+
+
+.background-image{
+	background-image: url("../img/mainimg.jpg");
+	width: 100vw !important;
+	height: 100vh !important;
+	object-fit: cover !important;
+
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.running-honey {
+	width: 29px;
+	height: 100px;
+	background-position: left bottom;
+	background-size: 87% auto;
+	margin-left: 110px;
+	position: relative;
+}
+
+.pot1 {
+	top: -195px;
+	background-image: url("../img/honey1.png");
+}
+.pot2 {
+	top: -205px;
+	background-image: url("../img/honey2.png");
+}
+.pot3 {
+	top: -212px;
+	background-image: url("../img/honey3.png");
+}
+
+.state2 {
+	background-position: left top;
+	webkit-transition: 12s ease-in;
+    -moz-transition: 12s ease-in;
+    -o-transition: 12s ease-in;
+    transition: 12s ease-in;
+
+
+}
+.gallery {
+	width: 100%;
+	
+	
+}
+
+.gallery img {
+	width: 33%;
+	float: left;
+}
+
+.break {
+	clear: both !important;
+}
+
+.honey-logo {
+	margin-top: 15px;
+	white-space: nowrap;
+}
+
+.honey-logo img{
+	width: 40px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+	margin-top: 7px;
+}
+
+h1 {
+	font-family: 'Marck Script', cursive;
+	font-size: 36px;
+	line-height: 58px;
+	letter-spacing: 0px;
+	color: white;
+	padding-top: 4px;
+	color: #EEEBCE;
+
+}
+.about-product {
+	
+}
+.pot {
+	width: 240px;
+}
+.main-title {
+	margin-top: 5%;
+	margin-bottom: 0px;
+	font-size:32px;
+	line-height: 52px;
+	letter-spacing: 0px;
+	color: #EDEACC;
+	text-shadow: 3px 3px 4px rgba(99, 127, 66, 1);
+}
+.sub-title {
+	font-size:22px;
+	line-height: 35px;
+	letter-spacing: 0px;
+	text-shadow: 3px 3px 4px rgba(99, 127, 66, 1);
+	color: #EDEACC;
+}
+.about-text {
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+	text-align: left;
+}
+.about-divider {
+	height: 90px;
+	margin: auto;
+}
+
+h2 {
+	display: block;
+	text-align: center;
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
+	line-height: 49px;
+	letter-spacing: 0px;
+	font-weight: 100;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Marck Script', cursive;
+	font-size: 24px;
+	line-height: 39px;
+	font-weight: 100;
+	letter-spacing: 0px;
+
+
+
+	
+
+}
+.description {
+	position: relative;
+	top: -100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 100;
+	letter-spacing: 0px;
+	text-align: center;
+}
+.description-dadan {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 100;
+	letter-spacing: 0px;
+	
+}
+.dadan-types {
+
+}
+.prices {
+	color: #7D6C25;
+	font-size: 18px;
+	line-height: 29px;
+	font-weight: 100;
+	letter-spacing: 0px;
+	display: inline-block;
+}
+.prices-details {
+	font-size: 12px;
+	line-height: 19px;
+	letter-spacing: 0px;
+
+}
+#map {
+	display: block;
+	min-height: 400px;
+	max-height: 400px;
+	height: 100%;
+	margin-top: 15px;
+	
+	opacity: 0.6 !important;
+}
+#mapoverlay {
+	background-color: rgba(62, 81, 35, 0.8);
+}
+.our-honey {
+	margin: auto;
+	width:230px;
+}
+.dadan img {
+	margin-top:90px;
+}
+.sunflower-icon {
+	text-align: center;
+}
+
+.sunflower-icon hr {
+	border-color: #181818;
+	margin-left: 7%;
+	margin-right: 7%;
+	position: relative;
+	bottom: -50px;
+	z-index: 0 !important;
+	margin-top: 0px;
+}
+.sunflower-icon img {
+	z-index: 10 !important;
+	position: relative;
+}
+.sub-text {
+	margin-top: 15px;
+	text-align: center;
+
+}
+.honey-adv {
+	margin-top: 20px;
+	margin-right: 7px;
+	margin-left: 7px;
+	margin-bottom: 50px;
+	text-align: left;
+	font-family: 'Merriweather', serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0px;
+	
+}
+.sub-contacts{
+	text-align: left;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 100;
+	letter-spacing: 0px;
+	margin-bottom: 15px;
+}
+.greenbutton {
+	background-color: rgba(62, 81, 35, 0.8);
+	color: #EEEBCE; 
+	border: 1px solid #EDEACC;
+
+
+}
+.greenbutton:hover{
+	background-color: #7D6C25;
+	border: 1px solid #EDEACC;
+}
+.del{
+	max-height: 550px
+}
+.delivery {
+	color: #EDEACC; 
+
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top:-300px;
+	z-index: 1 !important;
+}
+.delivery-type {
+	width: 450px;
+	display: inline-block;
+	font-size: 28px;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	font-weight:200;
+}
+.delivery-type:hover {
+	color: #D0B854;
+	cursor: pointer;
+	font-weight: 600;
+	transform: scale(1.2);
+	transition: transform .2s;
+}
+.delivery-active{
+	text-decoration-style: solid !important;
+	font-weight: 600;
+}
+
+.delivery-option {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0px;
+	font-weight: 100;
+	margin-top: 40px;
+	margin-right: 30px;
+	margin-left: 30px;
+	text-align: left;
+	text-shadow: 3px 3px 4px rgba(99, 127, 66, 1);
+	color: #EDEACC;
+	
+}
+.contact-info{
+	text-align: left;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 100;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+
+}
+.contacts{
+
+	color: #7D6C25;
+
+}
+.contact{
+	margin: 8px;
+}
+.about-lumilab{
+	text-align: center;
+	font-weight: 100;
+	font-size: 12px;
+	line-height: 19px;
+	letter-spacing: 0px;
+	margin-bottom: 10px;
+}
+
+.lumilab-link{
+	color: rgba(62, 81, 35, 0.9);
+
+
+}
+.lumilab-link:hover {
+	color: #CAB480;
+}
+
+.main-blog {
+	margin-bottom: 15px;
+}
+.blogbackground-image{
+	background-image: url("../img/mainimg.jpg");
+	width: 100vw !important;
+	object-fit: cover !important;
+
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.blog-size{
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.article-title{
+	text-align: center;
+	display: block;
+	text-align: center;
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
+	line-height: 49px;
+	letter-spacing: 0px;
+	font-weight: 100;
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+}
+
+.article-text{
+	font-family: 'Merriweather', serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0px;
+
+}
+.article-date{
+	font-family: 'Marck Script', cursive;
+	margin-top: 5px;
+	font-size: 18px;
+	line-height: 29px;
+	font-weight: 100;
+	letter-spacing: 0px;
+
+}
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+.hidden-blog {
+	max-height: 205px !important;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+}
+.author{
+	font-family: 'Marck Script', cursive;
+	margin-top: 5px;
+	font-size: 18px;
+	line-height: 29px;
+	font-weight: 100;
+	letter-spacing: 0px;
+
+}
