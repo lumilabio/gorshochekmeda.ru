@@ -48,13 +48,13 @@ $(function () {
 
         // if the validator does not prevent form submit
         if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
+            var url = "https://kkbfljk738.execute-api.us-east-1.amazonaws.com/dev/hello";
 
             // POST values in the background the the script URL
             $.ajax({
                 type: "POST",
                 url: url,
-                data: $(this).serialize(),
+                data: JSON.stringify( $(this).serializeArray() ),
                 success: function (data)
                 {
                     // inject the alert to .messages div in our form
