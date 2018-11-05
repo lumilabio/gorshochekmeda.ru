@@ -573,6 +573,8 @@ h3 {
 	max-height: 205px !important;
 	overflow: hidden !important;
 	text-overflow: ellipsis !important;
+	
+
 }
 .author{
 	font-family: 'Marck Script', cursive;
@@ -581,5 +583,22 @@ h3 {
 	line-height: 29px;
 	font-weight: 100;
 	letter-spacing: 0px;
+
+}
+.blog-photo img{
+	width: 100%;
+}
+
+.blog-photo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.blog-size {
+	max-width: 800px;
+}
+.blog-contacts{
+	margin-top: 20px;
 
 }
